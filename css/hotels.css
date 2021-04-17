@@ -1,0 +1,258 @@
+.wrapper{
+	width: 100%;
+	height: auto;
+}
+
+.container{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+}
+
+.header{
+	width: 1200px;
+	background-color: black;
+	height: 80px;
+}
+
+.header-left img{
+	    width: 200px;
+	        margin-top: 6px;
+    margin-left: 35px;
+    width: 210px;
+}
+
+.header-left{
+	width: 500px;
+	float: left;
+}
+
+.header-right{
+	width: 700px;
+	float: left;
+	    padding-top: 10px;
+}
+
+.header-right ul li{
+	display: inline-block;
+}
+
+.header-right ul li a{
+	    color: white;
+    padding-right: 15px;	
+    text-decoration: none;
+    font-size: 19px;
+    font-family: Times New Roman;
+}
+
+.sample{
+	    color: white;
+    padding-right: 10px;
+}
+
+.banner{
+	width: 1200px;
+}
+
+.lux{
+	width: 1200px;
+	height: auto;
+}
+
+.lux-left{
+	width: 700px;
+	float: left;
+}
+
+.lux-left h3{
+	    font-family: Book Antiqua;
+    font-weight: bold;
+        font-size: 31px;
+}
+
+.lux-left p{
+	    font-family: Times New Roman;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.lux-button{
+	    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+    font-family: Times New Roman;
+    font-size: 15px;
+    color: #111010;
+    background: linear-gradient( 45deg, #c23131, #781f1f00);
+    border: 1px solid white;
+}
+
+.lux-button:hover{
+	color: yellow;
+}
+
+.lux2-btn:hover{
+	color: yellow;
+}
+
+.lux-left h4{
+	    font-family: Times New Roman;
+    font-size: 25px;
+}
+
+#images{
+	width: 800px;
+	height: auto;
+}
+
+.lux-left img{
+	           width: 160px;
+    box-shadow: 1px 1px 3px green;
+}
+
+.lux2-btn{
+	    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+    font-family: Times New Roman;
+    font-size: 15px;
+    color: #111010;
+    background: linear-gradient( 45deg, #c23131, #781f1f00);
+    border: 1px solid white;
+}
+
+.lux-left img:hover{
+	box-shadow: 0px 0px 0px 1px, red;
+  opacity: .8;
+}
+
+.lux-right{
+	width: 400px;
+	height: auto;
+	float: left;
+	    margin-left: 50px;
+}
+
+.lux-right h3{
+	        margin-top: 34px;
+    text-align: center;
+    font-style: italic;
+    font-family: Book Antiqua;
+    font-size: 30px;
+        font-weight: bold;
+}
+
+input[type="text"]{
+	    border-radius: 26px;
+    padding: 5px 30px 5px 30px;
+    border: 2px solid black;
+    background-color: #ccc4c4;
+}
+
+input[type="email"]{
+	    border-radius: 26px;
+    padding: 5px 30px 5px 30px;
+    border: 2px solid black;
+    background-color: #ccc4c4;
+}
+
+.tab-one{
+    font-family: Book Antiqua;
+    font-weight: bold;
+    padding-right: 30px;
+    line-height: 35px;
+    }
+
+.btn-one{
+	    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+    font-family: Times New Roman;
+    font-size: 15px;
+    color: #111010;
+    background: linear-gradient( 45deg, #c23131, #781f1f00);
+    border: 1px solid white;
+}
+
+.btn-two{
+	    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+    font-family: Times New Roman;
+    font-size: 15px;
+    color: #111010;
+    background: linear-gradient( 45deg, #c23131, #781f1f00);
+    border: 1px solid white;
+        margin-left: 10px;
+}
+
+.flyer{
+	    width: 350px;
+    height: 580px;
+}
+
+.footer{
+	width: 1200px;
+	height: 90px;
+	float: left;
+	background-color: black;
+}
+
+.footer-left{
+	float: left;
+	width: 700px;
+	    float: left;
+}
+
+
+
+.footer-left ul li{
+	display: inline-block;
+}
+
+.footer-left ul li a{
+	color: white;
+    text-decoration: none;
+    font-family: Times New Roman;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.spoof{
+	    color: white;
+    padding-right: 15px;
+}
+
+.footer-left ul{
+	    margin-top: 25px;
+}
+
+.footer-right{
+	float: right;
+	width: 400px;
+	    padding-top: 27px;
+}
+
+
+.savage-one{
+	margin-right: 30px;
+    margin-left: 60px;
+    width: 33px;
+}
+
+.savage-two{
+	margin-right: 30px;
+    width: 33px;
+}
+
+.savage-three{
+	margin-right: 30px;
+    width: 33px;
+}
+
+.footer-left h4{
+	    color: white;
+    font-family: Book Antiqua;
+    padding-left: 35px;
+    font-size: 12px;
+}

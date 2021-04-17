@@ -1,0 +1,26 @@
+.hero{
+	padding-left: 600px!important;
+	    padding-top: 15px;
+}
+
+.hero li a{
+	font-family: 'New Tegomin', serif;
+	    font-size: 20px;
+}
+
+.demo{
+	    padding-top: 10px;
+    padding-left: 70px;
+}
+
+@media only screen and (max-width: 768px)
+{
+	.demo{
+		    padding-top: 0px;
+    padding-left: 0px;
+	}
+
+	.hero{
+		padding-left: 0px!important;
+	}
+}

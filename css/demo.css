@@ -1,0 +1,388 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Dela Gothic One', cursive;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	z-index: 10000;
+	position: fixed;
+	background-color: #222;
+	padding: 1rem 6.5rem;
+}
+
+.nav h2{
+	color: #fff;
+	font-size: 3rem;
+}
+
+#item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#item li{
+	list-style-type: none;
+	padding-right: 50px;
+}
+
+#item li a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+#item li a:hover, #item .icon i:hover{
+	color: #ff5733;
+}
+
+#item .icon i{
+	color: #fff;
+	cursor: pointer;
+	padding-right: 30px;
+}
+
+#bar{
+	color: #ff5733;
+	font-weight: lighter;
+	font-size: 1.5rem;
+	display: none;
+}
+
+.back{
+	background-image: url(../img/bg.jpg);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	z-index: -1;
+}
+
+.overlay{
+	background-color: #171819;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+}
+
+.mid{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.mid p{
+	    color: #7f8c8d;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+}
+
+.mid h2{
+	    font-size: 3.4rem;
+    color: #fff;
+    line-height: 5.1rem;
+}
+
+.mid .btn{
+	margin-top: 2rem;
+}
+
+
+.mid .btn a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.mid .btn a.simple{
+	color: #fff;
+	font-weight: 500;
+	padding: 0.9rem 1.6rem;
+}
+
+.mid .btn a.simple:hover{
+	color: #ff5733;
+}
+
+.mid .btn a.border{
+	font-weight: 500;
+	border: 1px solid #ff5733;
+	color: #ff5733;
+	padding: 0.9rem 1.6rem;
+}
+
+.mid .btn a.border:hover{
+	background-color: #fff;
+}
+
+
+.details{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8rem 15rem;
+	background-color: #171819;
+}
+
+.details h3, h5, h6{
+	color: #fff;
+}
+
+
+.details .one{
+	    width: 45%; 
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+}
+
+.details .one h3{
+	    font-size: 2.5rem;
+    padding-bottom: 1.1rem;
+}
+
+.details .one h6{
+	    font-size: 1.3rem;
+    line-height: 35px;
+    padding-bottom: 1.2rem;
+}
+
+.details .one p{
+	    font-size: 1.2rem;
+    color: grey;
+    padding-bottom: 3rem;
+}
+
+.details .one a{
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #ff5733;
+	border: 1px solid #ff5733;
+	padding: 1rem;
+	text-align: center;
+	color: #fff;
+}
+
+.details .one a:hover{
+	background-color: #fff;
+	color: #ff5733;
+}
+
+.details .two{
+	width: 45%;
+	border-left: 1px solid #666262;
+	padding-left: 4rem;
+}
+
+.details .two h3{
+	font-size: 2.5rem;
+}
+
+.details .two h5{
+	    font-size: 1.6rem;
+    padding-bottom: 5px;
+}
+
+.details .two p{
+	color: grey;
+	padding-top: 5px;
+}
+
+.trainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f9f9f9;
+	padding: 8rem; 
+}
+
+.trainer .about{
+	width: 37%;
+}
+
+.trainer .about h2{
+	font-size: 2.5rem;
+    padding-bottom: 1.4rem;
+}
+
+.trainer .about p{
+	    color: grey;
+    line-height: 25px;
+}
+
+.trainer .people{
+	width: 57%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.trainer .people .team1{
+	width: 45%;
+	height: auto;
+	box-sizing: border-box;
+	background: #fff;
+	box-shadow:
+  0 1.9px 3.6px rgba(0, 0, 0, 0.031),
+  0 5.4px 10px rgba(0, 0, 0, 0.045),
+  0 13px 24.1px rgba(0, 0, 0, 0.059),
+  0 43px 80px rgba(0, 0, 0, 0.09)
+;
+}
+
+.trainer .people .team1 .img img{
+	width: 100%;
+	object-fit: cover;
+}
+
+.trainer .people .team1 .name, .trainer .people .team1 .pro{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.trainer .people .teamDetails{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+	justify-content: center;
+}
+
+.trainer .people .team1 .name h4{
+	color: #212529;
+	font-size: 1.5rem;
+}
+
+.trainer .people .team1 .name i, .trainer .people .team1 .pro i{
+	font-size: 1.3rem;
+	font-weight: bolder;
+	cursor: pointer;
+	color: #212529;
+}
+
+
+
+.trainer .people .team1 .name{
+	padding: 5px 20px 0px 20px;
+}
+
+.trainer .people .team1 .pro{
+	padding: 0 20px 5px 20px;
+}
+
+.trainer .people .team1 .pro p{
+	color: #212529;
+}
+
+.class{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 7rem 8rem;
+}
+
+.class p{
+	    font-size: 1.3rem;
+    color: grey;
+    padding-bottom: 1.2rem;
+    text-align: center;
+}
+
+.class h2{
+	    font-size: 2.5rem;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.class .classMenu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.class .classMenu .team1{
+	width: 32%;
+	height: auto;
+	box-sizing: border-box;
+	background-color: #fff;
+	box-shadow:
+  0 1.9px 3.6px rgba(0, 0, 0, 0.031),
+  0 5.4px 10px rgba(0, 0, 0, 0.045),
+  0 13px 24.1px rgba(0, 0, 0, 0.059),
+  0 43px 80px rgba(0, 0, 0, 0.09);
+}
+
+.class .classMenu .team1 .img img{
+	width: 100%;
+	object-fit: cover;
+}
+
+.class .classMenu .team1 .teamDetails{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+.class .classMenu .team1 .teamDetails .name{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px 0px 30px;
+}
+
+.class .classMenu .team1 .teamDetails .name .nameDetails h4{
+	    font-size: 1.7rem;
+    color: #212529;
+}
+
+.class .classMenu .team1 .teamDetails .name .nameDetails p{
+	color: #212529;
+	font-size: 1.1rem;
+}
+
+.class .classMenu .team1 .teamDetails .name .nameDetails p span{
+	font-weight: 700;
+	font-size: 1.1rem;
+}
+
+.class .classMenu .team1 .teamDetails .name .num h5{
+	font-size: 1rem;
+	background-color: #f13a11;
+	width: 3.5rem;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.class .classMenu .team1 .pro{
+	    padding: 0px 30px 30px 30px;
+}
+
+.class .classMenu .team1 .pro p{
+	font-size: 1.1rem;
+	color: #666262;
+	text-align: left;
+}

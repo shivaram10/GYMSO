@@ -1,0 +1,36 @@
+.hero li a{
+	    font-family: Times New Roman;
+    color: grey;
+    font-size: 24px;
+}
+
+.hero li a:hover{
+	color: lightblue;
+}
+
+.hero{
+    padding-top: 26px!important;
+        padding-left: 500px!important;
+}
+
+.hero li{
+	padding-right: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+	.logo{
+		padding-top: 0px!important;
+		padding-left: 0px!important;
+	}
+
+	.hero{
+		padding-left: 0px!important
+	}
+
+	.header-btn{
+		    margin-top: 18px!important;
+	}

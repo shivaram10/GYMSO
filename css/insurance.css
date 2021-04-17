@@ -1,0 +1,338 @@
+#wrapper{
+	width: 100%;
+	height: auto;
+}
+
+.container{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+}
+
+.header{
+	    width: 1200px;
+    height: 70px;
+    background-color: #10104f;
+    margin: auto;
+}
+
+.header-left{
+	float: left;
+	width: 600px;
+}
+
+.header-right{
+	    float: left;
+    padding-left: 350px;
+    width: 250px;
+}
+
+.header-left h2{
+	        font-size: 27px;
+    color: white;
+    font-family: Times New Roman;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.header-right h4{
+	    font-family: Times New Roman;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 11px;
+    margin-left: 70px;
+}
+
+.header-right h3{
+	    color: white;
+    margin-top: 5px;
+    font-size: 27px;
+}
+
+.banner{
+	width: 1200px;
+	height: 900px;
+}
+
+.banner-content{
+	width: 600px;
+	float: left;
+}
+
+.banner-right{
+	width: 300px;
+	float: left;
+}
+
+.banner-right img{
+    width: 538px;
+    height: 355px;
+    margin-left: 20px;
+}
+
+.banner{
+    width: 1200px;
+    height: 368px;
+    margin-top: 0px;
+    background-color: #170e0e;
+}
+
+.banner-content h2{
+    color: white;
+    font-family: Bookman Old Style;
+    padding-left: 106px;
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+.banner-content ul{
+    color: white;
+    line-height: 39px;
+    padding-left: 121px;
+    font-family: Times New Roman;
+    margin-top: 0px;
+}
+
+input[type="text"]{
+    margin-left: 95px;
+    border-radius: 37px;
+    padding: 10px 20px 10px 20px;
+}
+
+.banner-btn{
+margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+    font-family: Times New Roman;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient( 
+45deg
+, #c23131, #781f1f00);
+    border: 1px solid white;
+}
+
+.middle{
+	width: 1200px;
+	height: auto;
+	    padding: 40px;
+}
+
+.middle-one{
+	float: left;
+	width: 350px;
+}
+
+.middle-two{
+	float: left;
+	width: 350px;
+	    padding-left: 35px;
+}
+
+.middle-three{
+	float: left;
+	width: 350px;
+	    padding-left: 35px;
+}
+
+.middle-one img{
+	    width: 340px;
+}
+
+.middle-two img{
+	   width: 340px;
+}
+
+.middle-three img{
+	   width: 340px;
+}
+
+.middle-one h3{
+	    font-family: Book Antiqua;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.middle-two h3{
+	    font-family: Book Antiqua;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.middle-three h3{
+	    font-family: Book Antiqua;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.middle-one p{
+	font-family: Book Antiqua;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.middle-two p{
+	font-family: Book Antiqua;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.middle-three p{
+	font-family: Book Antiqua;
+    text-align: justify;
+    line-height: 28px;
+}
+
+
+.auto{
+	width: 1200px;
+	height: auto;
+	float: left;
+}
+
+.auto h2{
+	text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Book Antiqua;
+}
+
+.content{
+	width: 1200px;
+	height: auto;
+}
+
+.content-left{
+	    width: 300px;
+	float: left;
+}
+
+.content-right{
+	width: 800px;
+	float: left;
+	height: auto;
+}
+
+.content-left img{
+	    width: 300px;
+    height: 350px;
+}
+
+.content-right p{
+	    font-family: Book Antiqua;
+    line-height: 39px;
+    text-align: justify;
+}
+
+.content-rightone{
+	float: left;
+}
+
+.content-righttwo{
+	float: left;
+	    padding-left: 52px;
+}
+
+.content-rightone ul{
+	    font-family: Book Antiqua;
+    line-height: 48px;
+    color: #c61111;
+}
+
+.content-righttwo ul{
+	    font-family: Book Antiqua;
+    line-height: 48px;
+    color: #c61111;
+}
+
+.client{
+	float: left;
+	width: 1200px;
+}
+
+.client h3{
+	font-family: Arial Black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+        font-size: 25px;
+}
+
+.client-left{
+	float: left;
+	width: 550px;
+}
+
+.client-right{
+	float: left;
+	width: 600px;
+	    padding-left: 50px;
+}
+
+
+.client-left p{
+	    font-family: Book Antiqua;
+    text-align: justify;
+    line-height: 33px;
+}
+
+.client-right p{
+	    font-family: Book Antiqua;
+    text-align: justify;
+    line-height: 33px;
+}
+
+.hit-one{
+	    color: red;
+    font-family: Book Antiqua;
+    font-weight: bold;
+}
+
+.hit-two{
+	    color: red;
+    font-family: Book Antiqua;
+    font-weight: bold;
+}
+
+.footer{
+	width: 1200px;
+	height: 80px;
+	float: left;
+	    background-color: #10104f;
+}
+
+.footer h3{
+	    color: white;
+    padding-left: 311px;
+        padding-top: 5px;
+    font-family: Times New Roman;
+    font-size: 21px;
+}
+
+.danger{
+	    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-btn{
+	    font-family: Times New Roman;
+    padding: 10px 20px 10px 20px;
+    color: black;
+    background-color: red;
+    border: 1px solid red;
+}
+
+.foo{
+	    float: right;
+    background-color: black;
+    width: 1200px;
+    height: 50px;
+}
+
+.foo p{
+	    color: white;
+    text-align: center;
+    font-family: Times New Roman;
+}
